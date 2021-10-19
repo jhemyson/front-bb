@@ -1,15 +1,7 @@
-import { Text } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 
 export function Logo() {
   return (
-    <Text
-      fontSize={["2xl", "3xl"]}
-      fontWeight="bold"
-      letterSpacing="tight"
-      w="64"
-    >
-      dashgo
-      <Text as="span" ml="1" color="pink.500">.</Text>
-    </Text>
+    <Image h="38" src="https://www.pnglib.com/wp-content/uploads/2021/02/banco-do-brasil-logo_602134b316d7d.png" />
   );
 }
